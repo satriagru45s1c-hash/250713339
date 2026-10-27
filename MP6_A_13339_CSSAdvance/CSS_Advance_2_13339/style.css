@@ -1,0 +1,92 @@
+body {
+    background-color: #f1e8f8;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333333;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #d1b8e5;
+}
+
+h1 {
+    color: #713b91;
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    color: #765b85;
+}
+
+.judul-bagian {
+    color: #613580;
+    background-color: #e8d9f4;
+    padding: 8px;
+    border-left: 4px solid #8956ad;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+td {
+    border: 1px solid #d1b8e5;
+    padding: 8px;
+}
+
+td:first-child {
+    width: 32%;
+    background-color: #e8d9f4;
+    color: #57316f;
+}
+
+.top {
+    vertical-align: top;
+}
+
+input[type="text"] {
+    width: 250px;
+    padding: 5px;
+    border: 1px solid #b99bd0;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #b99bd0;
+}
+
+textarea {
+    width: 250px;
+    height: 100px;
+    border: 1px solid #b99bd0;
+}
+
+.submit-cell {
+    text-align: center;
+    background-color: #e8d9f4;
+}
+
+input[type="submit"] {
+    padding: 6px 18px;
+    background-color: #8956ad;
+    color: white;
+    border: 1px solid #713b91;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #613580;
+}
+
+.note {
+    color: #765b85;
+    font-size: 13px;
+    text-align: center;
+}
